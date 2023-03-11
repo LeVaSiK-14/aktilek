@@ -10,7 +10,7 @@ class TeacherSerializer(serializers.ModelSerializer):
     class Meta:
         model=Teacher
         fields=(
-            'id', 'school', 'name', 'photo',
+            'id', 'school', 'name', 'photo', 'position',
         )
 
 class GaleriaSerializer(serializers.ModelSerializer):
