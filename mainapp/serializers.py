@@ -39,14 +39,14 @@ class SchoolSerializer(serializers.ModelSerializer):
     news=NewSerializer(many=True, read_only=True)
     teachers=TeacherSerializer(many=True,read_only=True)
     galeries=GaleriaSerializer(many=True, read_only=True)
-    rewiews=RewiewSerializer(many=True, read_only=True)
+    rewies=RewiewSerializer(many=True, read_only=True)
     class Meta:
         model=School
         fields=(
             'id','logo','whatsapp','twitter','facebook','name','description',\
             'admissiontouniversity','staff','students','successworkyear','mail',\
             'address', 'description_2', 'number_1', 'number_2', 'number_3', 'news',\
-            'teachers', 'galeries', 'rewiews',
+            'teachers', 'galeries', 'rewies',
                 
         )
         

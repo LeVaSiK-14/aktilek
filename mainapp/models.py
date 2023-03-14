@@ -57,7 +57,7 @@ class Rewiew(models.Model):
     photo = models.ImageField(upload_to='image/')
     name = models.CharField(max_length=127,verbose_name='имя',null=True)
     parent = models.CharField(max_length=127,verbose_name='родитель')
-    comment = models.TextField(verbose_name='отзывы')
+    comment = models.CharField(verbose_name='отзывы', max_length=410)
     def __str__(self):
         return self.name
     class Meta:
