@@ -85,7 +85,10 @@ CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "http://localhost:3001",
-    "http://127.0.0.1:3001"
+    "http://127.0.0.1:3001",
+    "http://192.168.0.101:3000",
+    "http://192.168.31.206:3000"
+
 ]
 WSGI_APPLICATION = 'core.wsgi.application'
 
