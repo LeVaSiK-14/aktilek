@@ -89,7 +89,7 @@ CORS_ORIGIN_WHITELIST = [
     "http://192.168.0.101:3000",
     "http://192.168.31.206:3000",
     "http://aktilek.kg",
-    "http://http://195.38.164.30"
+    "http://195.38.164.30"
 
 ]
 WSGI_APPLICATION = 'core.wsgi.application'
